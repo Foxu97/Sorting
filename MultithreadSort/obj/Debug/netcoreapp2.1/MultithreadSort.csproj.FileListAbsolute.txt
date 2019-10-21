@@ -9,3 +9,14 @@ F:\Repozytoria\MultithreadSort\MultithreadSort\obj\Debug\netcoreapp2.1\Multithre
 F:\Repozytoria\MultithreadSort\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.AssemblyInfo.cs
 F:\Repozytoria\MultithreadSort\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.dll
 F:\Repozytoria\MultithreadSort\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.pdb
+F:\Repozytoria\MultithreadSorting\MultithreadSort\bin\Debug\netcoreapp2.1\MultithreadSort.deps.json
+F:\Repozytoria\MultithreadSorting\MultithreadSort\bin\Debug\netcoreapp2.1\MultithreadSort.runtimeconfig.json
+F:\Repozytoria\MultithreadSorting\MultithreadSort\bin\Debug\netcoreapp2.1\MultithreadSort.runtimeconfig.dev.json
+F:\Repozytoria\MultithreadSorting\MultithreadSort\bin\Debug\netcoreapp2.1\MultithreadSort.dll
+F:\Repozytoria\MultithreadSorting\MultithreadSort\bin\Debug\netcoreapp2.1\MultithreadSort.pdb
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.csprojAssemblyReference.cache
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.csproj.CoreCompileInputs.cache
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.AssemblyInfoInputs.cache
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.AssemblyInfo.cs
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.dll
+F:\Repozytoria\MultithreadSorting\MultithreadSort\obj\Debug\netcoreapp2.1\MultithreadSort.pdb

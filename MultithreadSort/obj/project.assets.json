@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repozytoria\\MultithreadSort\\MultithreadSort\\MultithreadSort.csproj",
+      "projectUniqueName": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\MultithreadSort.csproj",
       "projectName": "MultithreadSort",
-      "projectPath": "F:\\Repozytoria\\MultithreadSort\\MultithreadSort\\MultithreadSort.csproj",
+      "projectPath": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\MultithreadSort.csproj",
       "packagesPath": "C:\\Users\\Kornel\\.nuget\\packages\\",
-      "outputPath": "F:\\Repozytoria\\MultithreadSort\\MultithreadSort\\obj\\",
+      "outputPath": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
