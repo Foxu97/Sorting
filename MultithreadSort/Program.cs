@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace MultithreadSort
 {
@@ -20,19 +21,22 @@ namespace MultithreadSort
 
 
             int[] copiedArr = (int[])originalArray.Clone();
-            int[] copiedArr0 = (int[])originalArray.Clone();
-            int[] copiedArr1 = (int[])originalArray.Clone();
-            int[] copiedArr2 = (int[])originalArray.Clone();
+            //int[] copiedArr0 = (int[])originalArray.Clone();
+            //int[] copiedArr1 = (int[])originalArray.Clone();
+            //int[] copiedArr2 = (int[])originalArray.Clone();
 
-            string bubbleSortedElapsedTime = Sorting.Bubblesort(copiedArr);
-            Console.WriteLine(bubbleSortedElapsedTime);
+            //string bubbleSortedElapsedTime = Sorting.Bubblesort(copiedArr);
+            //Console.WriteLine(bubbleSortedElapsedTime);
 
-            string insertSortedElapsedTime = Sorting.Insertsort(copiedArr0);
-            Console.WriteLine(insertSortedElapsedTime);
+            //string insertSortedElapsedTime = Sorting.Insertsort(copiedArr0);
+            //Console.WriteLine(insertSortedElapsedTime);
 
-            string shellSortElapsedTime = Sorting.Shellsort(copiedArr1);
-            Console.WriteLine(shellSortElapsedTime);
+            //string shellSortElapsedTime = Sorting.Shellsort(copiedArr1);
+            //Console.WriteLine(shellSortElapsedTime);
 
+
+            Thread thread = new Thread(Sorting.Bubblesort);
+            thread.Start();
 
 
 

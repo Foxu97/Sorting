@@ -9,19 +9,30 @@ namespace MultithreadSort
     {
         private static Stopwatch stopWatch = new Stopwatch();
         private static String elapsedTime; 
-        public static String Bubblesort(int[] arr)
+        public static void Bubblesort()
         {
+            int min = 0;
+            int max = 1000000;
+            int[] originalArray = new int[100000];
+            Random randNum = new Random();
+            for (int i = 0; i < originalArray.Length; i++)
+            {
+                originalArray[i] = randNum.Next(min, max);
+            }
+
+
+
             int temp = 0;
             stopWatch.Start();
-            for (int write = 0; write < arr.Length; write++)
+            for (int write = 0; write < originalArray.Length; write++)
             {
-                for (int sort = 0; sort < arr.Length - 1; sort++)
+                for (int sort = 0; sort < originalArray.Length - 1; sort++)
                 {
-                    if (arr[sort] > arr[sort + 1])
+                    if (originalArray[sort] > originalArray[sort + 1])
                     {
-                        temp = arr[sort + 1];
-                        arr[sort + 1] = arr[sort];
-                        arr[sort] = temp;
+                        temp = originalArray[sort + 1];
+                        originalArray[sort + 1] = originalArray[sort];
+                        originalArray[sort] = temp;
                     }
                 }
             }
@@ -30,10 +41,10 @@ namespace MultithreadSort
             elapsedTime = String.Format("BubbleSort: {0:00}h:{1:00}m:{2:00}s.{3:00}ms",
             ts.Hours, ts.Minutes, ts.Seconds,
             ts.Milliseconds / 10);
-            //Console.WriteLine("Bubble sort elapsed time " + elapsedTime);
+            Console.WriteLine("Bubble sort elapsed time " + elapsedTime);
 
             stopWatch.Reset();
-            return elapsedTime;
+            //return elapsedTime;
         }
         public static String Insertsort(int[] arr) {
             stopWatch.Start();

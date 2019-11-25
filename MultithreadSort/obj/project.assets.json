@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kornel\\.nuget\\packages\\": {},
+    "C:\\Users\\Kornel Fox\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\MultithreadSort.csproj",
+      "projectUniqueName": "D:\\Repozytoria\\Sorting\\MultithreadSort\\MultithreadSort.csproj",
       "projectName": "MultithreadSort",
-      "projectPath": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\MultithreadSort.csproj",
-      "packagesPath": "C:\\Users\\Kornel\\.nuget\\packages\\",
-      "outputPath": "F:\\Repozytoria\\MultithreadSorting\\MultithreadSort\\obj\\",
+      "projectPath": "D:\\Repozytoria\\Sorting\\MultithreadSort\\MultithreadSort.csproj",
+      "packagesPath": "C:\\Users\\Kornel Fox\\.nuget\\packages\\",
+      "outputPath": "D:\\Repozytoria\\Sorting\\MultithreadSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kornel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kornel Fox\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
